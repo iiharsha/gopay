@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:17-alpine
-    container_name: gopay
+    container_name: gopay-postgres
     environment:
       POSTGRES_USER: gopay
       POSTGRES_PASSWORD: gopay
